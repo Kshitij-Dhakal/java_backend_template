@@ -30,6 +30,3 @@ spring:
     default-property-inclusion: NON_NULL
     serialization:
       WRITE_DATES_AS_TIMESTAMPS: true
-  mvc:
-    pathmatch:
-      matching-strategy: ANT_PATH_MATCHER

@@ -17,15 +17,15 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'commons-io:commons-io:2.11.0'
     implementation 'org.apache.commons:commons-lang3:3.12.0'
-    implementation 'io.springfox:springfox-boot-starter:3.0.0'
-    implementation 'io.springfox:springfox-swagger-ui:3.0.0'
-    implementation 'com.auth0:java-jwt:4.0.0'
+
+    implementation 'com.auth0:java-jwt:4.1.0'
     implementation 'org.webjars:webjars-locator-core'
     implementation 'org.webjars:sockjs-client:1.5.1'
     implementation 'org.webjars:stomp-websocket:2.3.4'
     implementation 'org.mapstruct:mapstruct:1.5.3.Final'
     implementation 'com.google.guava:guava:31.1-jre'
     implementation 'org.projectlombok:lombok:1.18.24'
+    implementation 'org.springdoc:springdoc-openapi-ui:1.6.11'
 
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
     annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.3.Final'
