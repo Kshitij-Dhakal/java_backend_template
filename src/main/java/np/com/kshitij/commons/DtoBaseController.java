@@ -28,11 +28,4 @@ public abstract class DtoBaseController<D, E> extends BaseController {
                 .map(this::dto)
                 .collect(Collectors.toList());
     }
-
-    protected PageResponse<D> pageResponse(PageResponse<E> es) {
-        PageResponse<D> pageResponse = new PageResponse<>();
-        pageResponse.setToken(es.getToken());
-        pageResponse.setContent(dtos(es.getContent()));
-        return pageResponse;
-    }
 }

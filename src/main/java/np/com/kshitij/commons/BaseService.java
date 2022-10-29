@@ -31,7 +31,7 @@ public abstract class BaseService extends BaseComponent {
             if (token != null && token.length() > 100) {
                 log.debug("Token length for query param exceeded 100 chars. Consider using request body instead.");
             }
-            pageResponse.setToken(Base64Encoder.encode(token));
+            // TODO: 10/29/22 modify to use hateoas
         }
         return pageResponse;
     }
